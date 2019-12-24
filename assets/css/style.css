@@ -1,0 +1,29 @@
+#bg-pallarax{
+    background-image: url("../img/nightview.jpg");
+
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lucas{
+    height:500px;
+}
+
+#bottom-bg-pallarax{
+    background-image: url("../img/harley.jpg");
+
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-container{
+    border: 5px solid white;
+}
