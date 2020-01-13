@@ -1,29 +1,68 @@
+html, body {
+    background-color: #121212;
+    height: 100%;
+  }
+
+html:before,
+html:after,
+body:before,
+body:after {
+  content: "";
+  background: #ffffff;
+  position: fixed;
+  display: block;
+  z-index: 1;
+}
+
+/* 上 */
+html:before {
+  height: 5px; 
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+
+/* 右 */
+html:after {
+  width: 5px;
+  height: 100vh;
+  right: 0;
+  top: 0;
+}
+
+/* 下 */
+body:before {
+  height: 5px;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+/* 左 */
+body:after {
+  width: 5px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+header{
+    height:46rem;
+}
+#takayuki{
+    transform: translateY(300px);
+}
+
+#self-img{
+    height:20rem;
+    width:20rem;
+}
+
 #bg-pallarax{
     background-image: url("../img/nightview.jpg");
-
-    min-height: 700px;
-
+    min-height: 40rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.lucas{
-    height:500px;
-}
-
-#bottom-bg-pallarax{
-    background-image: url("../img/harley.jpg");
-
-    min-height: 700px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.border-container{
-    border: 5px solid white;
 }
